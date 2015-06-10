@@ -1,0 +1,17 @@
+<?php
+class DnaUnitTests extends DrupalUnitTestCase {
+    public static function getInfo() {
+        return array(
+            'name' => 'DNA unit tests',
+            'description' => 'Test that DNA_module works properly.',
+            'group' => 'Cool Stuff',
+        );
+    }
+    //single letter,left
+    function testDnaSingleLetter() {
+        $input = "A";
+        $result = dna_program($input);
+        $this->assertEqual($result, "A");
+    }
+
+  }

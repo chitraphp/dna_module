@@ -1,0 +1,6 @@
+name = DNA molecule programming Module
+description = A unit testing example
+package = COOL Stuff
+core = 7.x
+files[] = dna.module
+files[] = dna.test

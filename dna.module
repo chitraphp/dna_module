@@ -1,0 +1,8 @@
+<?php
+function dna_program($input) {
+  $characters = ["A", "T", "C", "G"];
+  $replace_chars = ["T", "A", "G", "C"];
+
+  $second_half_dna = strtr($input, $first_half_dna);
+  return $output;
+}
